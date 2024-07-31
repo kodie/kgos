@@ -1,0 +1,14 @@
+#WindowBox.contributions-view {
+  @include media('>=desktop') {
+    height: 60dvh;
+    width: 900px;
+
+    .tabs-navigation {
+      margin-left: 25%;
+    }
+
+    .side-navigation {
+      width: 25%;
+    }
+  }
+}

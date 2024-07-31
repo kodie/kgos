@@ -1,0 +1,63 @@
+.project-content {
+  .project-url {
+    display: block;
+    margin-top: 1rem;
+
+    & + .project-url {
+      margin-top: 0;
+    }
+  }
+
+  .project-info {
+    margin-top: 1rem;
+  }
+
+  .project-languages,
+  .project-technologies,
+  .project-tags {
+    list-style-type: none;
+    margin: 0;
+    user-select: none;
+
+    li {
+      background-color: $color-casper;
+      border-radius: 6px;
+      color: $color-night-sky;
+      display: inline-block;
+      font-size: 12px;
+      margin: 5px;
+      padding: 2px 5px;
+
+      &.lang-css,
+      &.lang-less,
+      &.lang-scss {
+        background-color: $color-blue-bobbin;
+      }
+
+      &.lang-gambas,
+      &.lang-python {
+        background-color: $color-freshly-baked;
+      }
+
+      &.lang-php {
+        background-color: $color-redstone;
+      }
+
+      &.lang-javascript {
+        background-color: $color-pistachio;
+      }
+
+      &.lang-bash,
+      &.lang-c,
+      &.tech-nodejs,
+      &.tech-react,
+      &.tech-react-native {
+        background-color: $color-cerulean;
+      }
+    }
+  }
+
+  h4 + p {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,14 @@
+#WindowBox.projects-view {
+  @include media('>=desktop') {
+    height: 75dvh;
+    width: 1000px;
+
+    .tabs-navigation {
+      margin-left: 25%;
+    }
+
+    .side-navigation {
+      width: 25%;
+    }
+  }
+}

@@ -1,0 +1,189 @@
+[
+  {
+    "id": "accu-steel",
+    "name": "Accu-Steel",
+    "description": "A design build firm specializing in commercial building construction.",
+    "info": {
+      "heading": "How I Helped",
+      "info": "Originally they were calculating building estimates via a custom spreadsheet with thousands of equations and formulas. I ported all of those equations to JavaScript and built them a custom dashboard/estimate calculator that they could have dealers log into on their computer, phone, or tablet to create and manage estimates."
+    },
+    "url": "https://accusteel.com",
+    "languages": [
+      "JavaScript",
+      "SCSS"
+    ],
+    "technologies": [
+      "NodeJS",
+      "React"
+    ],
+    "tags": [
+      "Back-End",
+      "Front-End"
+    ]
+  },
+  {
+    "id": "art-of-ed",
+    "name": "The Art of Education University",
+    "description": "An accredited online university geared towards art teachers.",
+    "info": {
+      "heading": "How I Helped",
+      "list": [
+        "Configured and maintained multiple servers behind a load-balancer to ensure high-availability",
+        "Set up non-static uploads to be uploaded to and served from AWS S3 buckets",
+        "Asisted with a custom ledger system to track user's payments",
+        "Miscellaneous back-end and front-end work"
+      ]
+    },
+    "url": "https://theartofeducation.edu",
+    "languages": [
+      "JavaScript",
+      "PHP",
+      "SCSS"
+    ],
+    "technologies": [
+      "AWS"
+    ],
+    "tags": [
+      "API",
+      "Back-End",
+      "Front-End",
+      "Load-Balancing",
+      "WordPress"
+    ]
+  },
+  {
+    "id": "count-the-kicks",
+    "name": "Count The Kicks",
+    "description": "An evidence-based stillbirth prevention and awareness program that teaches expectant parents the method for, and importance of, tracking fetal movement daily during the third trimester of pregnancy.",
+    "info": {
+      "heading": "How I Helped",
+      "list": [
+        "Configured and maintained Linux server running Apache HTTPD",
+        "Miscellaneous back-end and front-end work"
+      ]
+    },
+    "url": "https://countthekicks.org",
+    "languages": [
+      "JavaScript",
+      "PHP",
+      "SCSS"
+    ],
+    "tags": [
+      "Back-End",
+      "Front-End",
+      "WordPress"
+    ]
+  },
+  {
+    "id": "happy-boards",
+    "name": "Happy Boards",
+    "description": "A customizable way to share messages on TV, making offices, events & schools happier.",
+    "info": {
+      "heading": "How I Helped",
+      "list": [
+        "Developed and maintained custom Android-based firmware",
+        "Created a system for updating custom firmware on devices remotely",
+        "Went on-site to set up digital signage hardware for clients",
+        "Managed and maintained the Linux servers that ran both the software and database",
+        "Implemented custom APIs for pulling data from various social media networks",
+        "Contributed to sales pitch meetings with potential clients",
+        "Assisted client IT teams with gettind devices working with their internal networks and firewalls"
+      ]
+    },
+    "languages": [
+      "Bash",
+      "JavaScript",
+      "PHP",
+      "SCSS"
+    ],
+    "technologies": [
+      "MeteorJS",
+      "NodeJS"
+    ],
+    "tags": [
+      "Android",
+      "API",
+      "Back-End",
+      "Front-End",
+      "WordPress"
+    ]
+  },
+  {
+    "id": "iowa-finance-authority",
+    "name": "Iowa Finance Authority",
+    "description": "Iowa's one stop source for homeownership, affordable rental, water quality and title guaranty expertise.",
+    "info": {
+      "heading": "How I Helped",
+      "list": [
+        "Set up a remote MySQL database server that was encrypted via LUKS at rest and SSL during transit",
+        "Configured and maintained Linux server running Apache HTTPD",
+        "Miscellaneous back-end and front-end work"
+      ]
+    },
+    "url": "https://iowafinance.com",
+    "languages": [
+      "JavaScript",
+      "PHP",
+      "SCSS"
+    ],
+    "tags": [
+      "API",
+      "Back-End",
+      "Front-End",
+      "WordPress"
+    ]
+  },
+  {
+    "id": "moms-society",
+    "name": "The Mom's Society",
+    "description": "An engaging online community where moms can connect, share experiences, give and get advice, and access the information or recommendations they need and want.",
+    "info": {
+      "heading": "How I Helped",
+      "list": [
+        "Built a mobile application for both Android and iOS",
+        "Built a number of custom WordPress plugins for users to make posts, comments, follow each other, typical social media functionality",
+        "Built custom API endpoints for the mobile app to connect to",
+        "Configured and maintained Linux server running Apache HTTPD",
+        "Miscellaneous back-end and front-end work"
+      ]
+    },
+    "url": "https://momssociety.com",
+    "languages": [
+      "JavaScript",
+      "PHP",
+      "SCSS"
+    ],
+    "technologies": [
+      "React Native"
+    ],
+    "tags": [
+      "API",
+      "Back-End",
+      "Front-End",
+      "WordPress"
+    ]
+  },
+  {
+    "id": "studio-629",
+    "name": "Studio 629",
+    "description": "The perfect spot for a creative, collaborative work space. Beautiful natural light, super communicative host, and comfortable atmosphere.",
+    "info": {
+      "heading": "How I Helped",
+      "list": [
+        "Configured and maintained Linux server running Apache HTTPD",
+        "Miscellaneous back-end and front-end work"
+      ]
+    },
+    "url": "https://rentstudio629.com",
+    "languages": [
+      "JavaScript",
+      "PHP",
+      "SCSS"
+    ],
+    "tags": [
+      "Back-End",
+      "Front-End",
+      "WordPress"
+    ]
+  }
+]

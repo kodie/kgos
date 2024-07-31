@@ -1,0 +1,24 @@
+#WindowBox.hire-me-view {
+  @include media('>=desktop') {
+    height: 300px;
+    width: 500px;
+  }
+
+  .content {
+    &:after {
+      clear: both;
+      content: '';
+      display: block;
+    }
+  }
+
+  .contact {
+    svg, a {
+      vertical-align: middle;
+    }
+
+    svg {
+      margin-right: .5rem;
+    }
+  }
+}

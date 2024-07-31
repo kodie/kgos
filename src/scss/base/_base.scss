@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  outline-color: $color-casper;
+  padding: 0;
+  scrollbar-color: $color-night-sky $color-noble-black;
+  scrollbar-width: thin;
+
+  &::selection {
+    background-color: $color-casper;
+    color: $color-infinity;
+  }
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+body {
+  background-color: $color-infinity;
+  min-height: 100vh;
+  position: relative;
+}
+
+#root {
+  height: 100dvh;
+  position: relative;
+  width: 100dvw;
+}

@@ -1,0 +1,25 @@
+#WindowBox.about-view {
+  @include media('>=desktop') {
+    height: 350px;
+    width: 600px;
+  }
+
+  .content {
+    &:after {
+      clear: both;
+      content: '';
+      display: block;
+    }
+  }
+
+  .headshot {
+    display: block;
+    margin: 1rem auto;
+
+    @include media('>=desktop') {
+      float: left;
+      margin: 0;
+      padding-right: 1rem;
+    }
+  }
+}

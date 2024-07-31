@@ -1,0 +1,234 @@
+[
+  {
+    "id": "asciify-image",
+    "name": "Asciify Image",
+    "description": "A module that allows you to convert images to ASCII art without native dependencies.",
+    "info": {
+      "heading": "How I Contributed",
+      "list": [
+        "Migrated the image processor from lwip to jimp so that no native dependencies would be required and the module could run purely on JavaScript",
+        "Miscellaneous bug fixes"
+      ]
+    },
+    "url": "https://github.com/ajay-gandhi/asciify-image/pulls?q=author%3Akodie",
+    "languages": [
+      "JavaScript"
+    ],
+    "tags": [
+      "Image Manipulation"
+    ]
+  },
+  {
+    "id": "axios-mock-adapter",
+    "name": "Axios Mock Adapter",
+    "description": "Axios adapter that allows to easily mock requests.",
+    "info": {
+      "heading": "How I Contributed",
+      "list": [
+        "Implemented a way for the module to mock redirects in a request"
+      ]
+    },
+    "url": "https://github.com/ctimmerm/axios-mock-adapter/pulls?q=author%3Akodie",
+    "languages": [
+      "JavaScript"
+    ],
+    "technologies": [
+      "NodeJS"
+    ],
+    "tags": [
+      "API"
+    ]
+  },
+  {
+    "id": "color",
+    "name": "Color",
+    "description": "A little library to handle color conversions and comparisons.",
+    "info": {
+      "heading": "How I Contributed",
+      "list": [
+        "Added CIELab and XYZ color format support",
+        "Implemented color comparision functionality using the CIE76, CIE94, and CIEDE2000 color comparison algorithms",
+        "Miscellaneous bug fixes and documentation updates"
+      ]
+    },
+    "url": "https://github.com/spatie/color/pulls?q=author%3Akodie",
+    "languages": [
+      "PHP"
+    ]
+  },
+  {
+    "id": "is",
+    "description": "A module for type checking values",
+    "info": {
+      "heading": "How I Contributed",
+      "list": [
+        "Implemented the is.empty(), is.any(), and is.all() functions"
+      ]
+    },
+    "url": "https://github.com/sindresorhus/is/pulls?q=author%3Akodie",
+    "languages": [
+      "JavaScript"
+    ]
+  },
+  {
+    "id": "meteor-simple-weather",
+    "name": "Meteor Simple Weather",
+    "description": "simpleweather packaged for Meteor",
+    "info": {
+      "heading": "How I Contributed",
+      "list": [
+        "Updated the simpleWeather dependency to fix a bug that would flood the console with errors"
+      ]
+    },
+    "url": "https://github.com/selaias/meteor-simpleweather/pulls?q=author%3Akodie",
+    "languages": [
+      "JavaScript"
+    ],
+    "technologies": [
+      "MeteorJS",
+      "NodeJS"
+    ],
+    "tags": [
+      "API"
+    ]
+  },
+  {
+    "id": "nice-select2",
+    "name": "Nice Select",
+    "description": "A lightweight Vanilla JavaScript plugin that replaces native select elements with customizable dropdowns.",
+    "info": {
+      "heading": "How I Contributed",
+      "list": [
+        "Miscellaneous bug fixes"
+      ]
+    },
+    "url": "https://github.com/bluzky/nice-select2/pulls?q=author%3Akodie",
+    "languages": [
+      "JavaScript"
+    ],
+    "tags": [
+      "Front-End"
+    ]
+  },
+  {
+    "id": "node-ffmpeg",
+    "name": "Node FFmpeg",
+    "description": "A library that provides a set of functions and utilities to abstract command-line usage of ffmpeg.",
+    "info": {
+      "heading": "How I Contributed",
+      "list": [
+        "Added the ability to configure the path to the ffmpeg executable"
+      ]
+    },
+    "url": "https://github.com/damianociarla/node-ffmpeg/pulls?q=author%3Akodie",
+    "languages": [
+      "JavaScript"
+    ],
+    "tags": [
+      "Video Manipulation"
+    ]
+  },
+  {
+    "id": "react-native-pulse",
+    "name": "React Native Pulse Animation",
+    "description": "A pulse animation component for React Native.",
+    "info": {
+      "heading": "How I Contributed",
+      "list": [
+        "Implemented the pulseStyle property to allow for customizing the look of the animation",
+        "Miscellaneous code cleanup"
+      ]
+    },
+    "url": "https://github.com/sahlhoff/react-native-pulse/pulls?q=author%3Akodie",
+    "languages": [
+      "JavaScript"
+    ],
+    "technologies": [
+      "React Native"
+    ]
+  },
+  {
+    "id": "replace-in-file",
+    "name": "Replace In File",
+    "description": "A simple utility to quickly replace contents in one or more files.",
+    "info": {
+      "heading": "How I Contributed",
+      "list": [
+        "Added the ignore option to define files that should be ignored"
+      ]
+    },
+    "url": "https://github.com/adamreisnz/replace-in-file/pulls?q=author%3Akodie",
+    "languages": [
+      "JavaScript"
+    ],
+    "technologies": [
+      "NodeJS"
+    ],
+    "tags": [
+      "File Manipulation"
+    ]
+  },
+  {
+    "id": "s3-uploads",
+    "name": "S3 Uploads",
+    "description": "a WordPress plugin to store uploads on S3.",
+    "info": {
+      "heading": "How I Contributed",
+      "list": [
+        "Documentation updates"
+      ]
+    },
+    "url": "https://github.com/humanmade/S3-Uploads/pulls?q=author%3Akodie",
+    "languages": [
+      "PHP"
+    ],
+    "tags": [
+      "WordPress"
+    ]
+  },
+  {
+    "id": "share-count",
+    "name": "Social Share Count API",
+    "description": "A simple PHP script to fetch the count of social shares on various social networks.",
+    "info": {
+      "heading": "How I Contributed",
+      "list": [
+        "Added the ability to specify services to fetch data from so that no unnecessary network requests are made",
+        "Added the ability to define request URL parameters so that access tokens can be included in the request"
+      ]
+    },
+    "url": "https://github.com/abemedia/shareCount/pulls?q=author%3Akodie",
+    "languages": [
+      "PHP"
+    ],
+    "tags": [
+      "API"
+    ]
+  },
+  {
+    "id": "winbox",
+    "name": "WinBox",
+    "description": "A modern window manager for the web.",
+    "info": {
+      "heading": "How I Contributed",
+      "list": [
+        "Made some changes to the development environment so that the library could be developed on non-Windows machines",
+        "Made it so the object instance is attached to the element so that it can be referenced later",
+        "Made it so that window sizes were dependent on CSS rather than hard-coded in JavaScript",
+        "Added the hidden option so that a window could be hidden when it is first initialized",
+        "Added a template option so that a windows markup could be customized",
+        "Added the autosize option so that a windows size could be dependent on it's content",
+        "Miscellaneous bug fixes"
+      ]
+    },
+    "url": "https://github.com/nextapps-de/winbox/pulls?q=author%3Akodie",
+    "languages": [
+      "CSS",
+      "JavaScript",
+      "LESS"
+    ],
+    "tags": [
+      "Front-End"
+    ]
+  }
+]

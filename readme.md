@@ -1,0 +1,3 @@
+# kgOS
+
+This is the source for my personal website located at [http://kodieg.com](http://kodieg.com). It was built in React and compiles down to a single HTML file containing a single line of minified code. All stylesheets, JavaScript, and even images are embeded into that one file which means that you could download and open the HTML file on your computer and the website would work as normal even without internet access. The only network request that it makes is to Google Analytics. You can view the compiled code here: [https://github.com/kodie/kodie/blob/main/index.html](https://github.com/kodie/kodie/blob/main/index.html)

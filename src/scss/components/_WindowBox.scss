@@ -1,0 +1,260 @@
+#WindowBox {
+  background-color: $color-noble-black;
+  border: 1px solid $color-infinity;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  height: 90dvh;
+  max-height: 90dvh;
+  max-width: 90dvw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90dvw;
+
+  @include media('>=tablet') {
+    transition: 0.3s;
+  }
+
+  .title-bar {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 13px;
+    padding: 4px 6px;
+    user-select: none;
+    white-space: nowrap;
+    width: 100%;
+
+    .title {
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .controls {
+      margin-left: auto;
+
+      svg {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+
+  .content-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    overflow: hidden;
+  }
+
+  .content {
+    background-color: $color-night-sky;
+    box-sizing: border-box;
+    flex: 1;
+    overflow: auto;
+    padding: 10px;
+  }
+
+  .tabs-navigation {
+    box-sizing: border-box;
+    margin-left: 0%;
+    position: relative;
+    user-select: none;
+
+    @include media('<tablet') {
+      &.open {
+        .nav-items {
+          display: block;
+        }
+
+        & + .content-container .side-navigation {
+          display: none;
+        }
+
+        .mobile-nav-btn:not(.projects-mobile-nav-btn) {
+          background-color: $color-night-sky;
+        }
+
+        .projects-mobile-nav-btn.open {
+          background-color: transparent;
+        }
+      }
+    }
+
+    @include media('>=tablet') {
+      transition: 0.3s;
+    }
+
+    .mobile-nav-btn {
+      background: none;
+      border: 0;
+      color: $color-casper;
+      display: inline-block;
+      font-size: 16px;
+      padding: 6px 12px;
+
+      @include media('>=tablet') {
+        display: none;
+      }
+
+      &.open {
+        background-color: $color-night-sky;
+      }
+
+      svg {
+        margin-right: 5px;
+        padding-bottom: 3px;
+        vertical-align: middle;
+      }
+
+      span {
+        vertical-align: middle;
+      }
+    }
+
+    .nav-items {
+      font-size: 13px;
+      list-style-type: none;
+      margin: 0;
+
+      @include media('<tablet') {
+        background-color: $color-noble-black;
+        display: none;
+        font-size: 16px;
+        position: absolute;
+        z-index: 10;
+      }
+
+      li {
+        @include media('>=tablet') {
+          display: inline-block;
+        }
+
+        a {
+          display: block;
+          padding: 6px 12px;
+          text-decoration: none;
+
+          &.active {
+            background-color: $color-night-sky;
+          }
+
+          svg {
+            margin-right: 4px;
+            vertical-align: middle;
+          }
+
+          span {
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+
+  .side-navigation {
+    box-sizing: border-box;
+    overflow: hidden;
+    scrollbar-color: $color-noble-black $color-night-sky;
+    user-select: none;
+
+    @include media('<tablet') {
+      display: flex;
+      flex-direction: column;
+
+      &:not(.root-project-view) {
+        display: none;
+      }
+    }
+
+    .mobile-side-nav-btn {
+      background: none;
+      border: 0;
+      color: $color-casper;
+      font-size: 16px;
+      padding: 5px;
+      width: fit-content;
+
+      svg {
+        margin-right: 5px;
+        padding-bottom: 3px;
+        vertical-align: middle;
+      }
+
+      span {
+        vertical-align: middle;
+      }
+    }
+
+    .nav-items {
+      list-style-type: none;
+      margin: 0;
+      max-height: 100%;
+      overflow-x: hidden;
+      overflow-y: auto;
+
+      li {
+        a {
+          display: block;
+          font-size: 14px;
+          padding: 6px;
+          text-decoration: none;
+
+          &.active {
+            background-color: $color-night-sky;
+          }
+
+          svg {
+            margin-right: 4px;
+            vertical-align: middle;
+          }
+
+          span {
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+
+  .status-bar {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 12px;
+    gap: 16px;
+    overflow: hidden;
+    padding: 2px 6px;
+    user-select: none;
+
+    a {
+      text-decoration: none;
+
+      svg {
+        margin-right: 2px;
+        vertical-align: middle;
+      }
+
+      span {
+        vertical-align: middle;
+      }
+    }
+
+    .status-bar-copyright {
+      margin-left: auto;
+    }
+
+    @include media('<400px') {
+      justify-content: center;
+      flex-wrap: wrap;
+
+      .status-bar-copyright {
+        display: block;
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+      }
+    }
+  }
+}

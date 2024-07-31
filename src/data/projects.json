@@ -1,0 +1,473 @@
+[
+  {
+    "id": "adbuix",
+    "name": "Adbuix",
+    "description": "A Graphic User Interface for the Android Debug Bridge on the Linux Operating System.",
+    "info": "Adbuix was a project that I worked on from 2009 to 2010 when I was 20 years old. It was written in something called Gambas which is basically Visual Basic for Linux. I've been into tweaking and hacking the Android operating system since it was first released and this was a tool I built to make doing so easier.",
+    "url": "https://github.com/kodie/adbuix",
+    "languages": [
+      "Gambas"
+    ],
+    "tags": [
+      "Android",
+      "Desktop Application",
+      "Linux"
+    ]
+  },
+  {
+    "id": "ansiescapes",
+    "description": "ANSI escape codes for manipulating the terminal. A Python port of sindresorhus's ansi-escapes Node.js module.",
+    "info": "I learned Python pretty early on as most developers do however at the time I hadn't gotten a whole lot of oppurtunies to put that skill to use so this was just a small project I came up with during my downtime.",
+    "url": "https://github.com/kodie/ansiescapes",
+    "languages": [
+      "Python"
+    ],
+    "tags": [
+      "CLI"
+    ]
+  },
+  {
+    "id": "apache-module-manager",
+    "name": "Apache Module Manager",
+    "description": "A CLI tool for enabling/disabling Apache modules.",
+    "info": "Before I had the company I was working for make the move to Docker-izing everything, we originally had all of our build tools including NodeJS installed on each developer's machine and used the macOS built-in Apache HTTP Server. We ran into issues all the time where a certain project was expecting a certain version of a dependency. With us mainly working with WordPress websites at the time this meant that different websites required different versions of PHP. I built this tool primarily to quickly switch which version of PHP was running on the developer's machine.",
+    "url": "https://github.com/kodie/apache-module-manager",
+    "languages": [
+      "JavaScript"
+    ],
+    "technologies": [
+      "NodeJS"
+    ],
+    "tags": [
+      "Apache",
+      "CLI",
+      "Config"
+    ]
+  },
+  {
+    "id": "bitbar-trello",
+    "name": "BitBar Trello Plugin",
+    "description": "A plugin for BitBar that shows your unread Trello notification count with a drop-down list of clickable recent notifications",
+    "url": "https://github.com/kodie/bitbar-trello",
+    "languages": [
+      "Bash"
+    ],
+    "tags": [
+      "API",
+      "macOS",
+      "Plugin"
+    ]
+  },
+  {
+    "id": "bitbar-xboxfeed",
+    "name": "BitBar Xbox Feed Plugin",
+    "description": "A plugin for BitBar that shows your Xbox Live friend's recent activity.",
+    "url": "https://github.com/kodie/bitbar-xboxfeed",
+    "languages": [
+      "JavaScript"
+    ],
+    "technologies": [
+      "NodeJS"
+    ],
+    "tags": [
+      "API"
+    ]
+  },
+  {
+    "id": "date-shortcode",
+    "description": "A small and simple date shortcode library.",
+    "url": "https://github.com/kodie/date-shortcode",
+    "languages": [
+      "JavaScript"
+    ]
+  },
+  {
+    "id": "fec",
+    "name": "Front End Compiler",
+    "description": "A PHP Command Line tool that makes it easy to compile, concat, and minify front-end Javascript and CSS/SCSS dependencies.",
+    "url": "https://github.com/itsahappymedium/fec",
+    "languages": [
+      "PHP"
+    ],
+    "tags": [
+      "CLI"
+    ]
+  },
+  {
+    "id": "filebokz",
+    "description": "A lightweight, dependency-free, highly customizable JavaScript file input module with features like drag-and-drop, image previews, file size indicators, and field validation.",
+    "info": "A task that I would end up doing a lot with various projects is needing to style a file input. This was a tedious task, so I built filebokz to be something I could easily, consistently, implement, style, and use.",
+    "url": [
+      "https://filebokz.js.org",
+      "https://github.com/kodie/filebokz"
+    ],
+    "languages": [
+      "JavaScript",
+      "SCSS"
+    ],
+    "tags": [
+      "Front-End"
+    ]
+  },
+  {
+    "id": "form-data-body",
+    "description": "A tiny, dependency-free node module for generating a form's multipart/form-data body for a POST request.",
+    "url": "https://github.com/kodie/form-data-body",
+    "languages": [
+      "JavaScript"
+    ]
+  },
+  {
+    "id": "gameranger-account-switcher",
+    "name": "GameRanger Account Switcher",
+    "description": "A program that allows you to have multiple accounts in the game client program called GameRanger.",
+    "url": "https://github.com/kodie/gameranger-account-switcher",
+    "languages": [
+      "C#"
+    ],
+    "tags": [
+      "Desktop Application"
+    ]
+  },
+  {
+    "id": "giph",
+    "description": "A small node module/command line interface tool that fetches a random GIF from Giphy.",
+    "url": "https://github.com/kodie/giph",
+    "languages": [
+      "JavaScript"
+    ],
+    "technologies": [
+      "NodeJS"
+    ],
+    "tags": [
+      "API",
+      "CLI"
+    ]
+  },
+  {
+    "id": "gpm",
+    "name": "Git Package Manager",
+    "description": "A PHP Command Line tool that makes it easy to download dependencies from GitHub.",
+    "url": "https://github.com/itsahappymedium/gpm",
+    "languages": [
+      "PHP"
+    ],
+    "tags": [
+      "API",
+      "CLI"
+    ]
+  },
+  {
+    "id": "gravityforms-repeater",
+    "name": "Gravity Forms Repeater Add-On",
+    "description": "(Deprecated) - A Gravity Forms add-on that allows specified groups of fields to be repeated by the user.",
+    "url": "https://github.com/kodie/gravityforms-repeater",
+    "languages": [
+      "JavaScript",
+      "PHP",
+      "SCSS"
+    ],
+    "tags": [
+      "Plugin",
+      "WordPress"
+    ]
+  },
+  {
+    "id": "greeklish-file-replace",
+    "description": "Search files for Greek characters and replace them with their greeklish equivalents.",
+    "url": "https://github.com/kodie/greeklish-file-replace",
+    "languages": [
+      "JavaScript"
+    ]
+  },
+  {
+    "id": "growfield",
+    "description": "A tiny, dependency-free JavaScript module for making textarea elements grow with their content.",
+    "url": [
+      "https://growfield.js.org",
+      "https://github.com/kodie/growfield"
+    ],
+    "languages": [
+      "JavaScript"
+    ],
+    "tags": [
+      "Front-End"
+    ]
+  },
+  {
+    "id": "hashjump",
+    "description": "A tiny, dependency-free JavaScript module for handling anchor links and scrolling elements into view.",
+    "url": [
+      "https://hashjump.js.org",
+      "https://github.com/kodie/hashjump"
+    ],
+    "languages": [
+      "JavaScript"
+    ],
+    "tags": [
+      "Front-End"
+    ]
+  },
+  {
+    "id": "img-items",
+    "description": "Finds individual items inside an image and gets their size/coordinates.",
+    "url": "https://github.com/kodie/img-items",
+    "languages": [
+      "JavaScript"
+    ],
+    "tags": [
+      "Image Manipulation"
+    ]
+  },
+  {
+    "id": "kloner",
+    "description": "A tiny, dependency-free JavaScript module for cloning/repeating elements.",
+    "url": [
+      "https://kloner.js.org",
+      "https://github.com/kodie/kloner"
+    ],
+    "languages": [
+      "JavaScript"
+    ],
+    "tags": [
+      "Front-End"
+    ]
+  },
+  {
+    "id": "kolorfield",
+    "description": "A tiny, dependency-free, color input field helper that utilizes the native color picker.",
+    "url": [
+      "https://kolorfield.js.org",
+      "https://github.com/kodie/kolorfield"
+    ],
+    "languages": [
+      "JavaScript",
+      "SCSS"
+    ],
+    "tags": [
+      "Front-End"
+    ]
+  },
+  {
+    "id": "lyrcper",
+    "description": "A Twitter bot that posts randomly generated wallpapers with song lyrics.",
+    "url": "https://github.com/kodie/lyrcper",
+    "languages": [
+      "JavaScript"
+    ],
+    "tags": [
+      "Image Manipulation"
+    ]
+  },
+  {
+    "id": "lyric-paper",
+    "description": "A node module that draws a random line of song lyrics onto a random image from Flickr.",
+    "url": "https://github.com/kodie/lyric-paper",
+    "languages": [
+      "JavaScript"
+    ]
+  },
+  {
+    "id": "md5-file",
+    "description": "Get the MD5-sum of a given file, with low memory usage, even on huge files.",
+    "url": "https://github.com/kodie/md5-file",
+    "languages": [
+      "JavaScript"
+    ],
+    "tags": [
+      "CLI"
+    ]
+  },
+  {
+    "id": "minitaur",
+    "description": "The ultimate, dependency-free, easy to use, JavaScript plugin for creating and managing modals.",
+    "url": [
+      "https://minitaur.js.org",
+      "https://github.com/kodie/minitaur"
+    ],
+    "languages": [
+      "JavaScript"
+    ],
+    "tags": [
+      "Front-End"
+    ]
+  },
+  {
+    "id": "moment-holiday",
+    "description": "(Deprecated) - A Moment.js plugin for handling holidays.",
+    "url": "https://github.com/kodie/moment-holiday",
+    "languages": [
+      "JavaScript"
+    ]
+  },
+  {
+    "id": "moment-weekdaysin",
+    "description": "(Deprecated) - A Moment.js plugin for getting the weekdays of a month, year, or inbetween two dates.",
+    "url": "https://github.com/kodie/moment-weekdaysin",
+    "languages": [
+      "JavaScript"
+    ]
+  },
+  {
+    "id": "npm-gif",
+    "description": "Replace NPM install's progress bar with a GIF.",
+    "url": "https://github.com/kodie/npm-gif",
+    "languages": [
+      "JavaScript"
+    ],
+    "tags": [
+      "CLI"
+    ]
+  },
+  {
+    "id": "peekfield",
+    "description": "A dependency-free, easy to use, JavaScript plugin for hiding and showing fields.",
+    "url": "https://github.com/kodie/peekfield",
+    "languages": [
+      "JavaScript"
+    ],
+    "tags": [
+      "Front-End"
+    ]
+  },
+  {
+    "id": "php-img-items",
+    "description": "Finds individual items inside an image and gets their size/coordinates.",
+    "url": "https://github.com/kodie/php-img-items",
+    "languages": [
+      "PHP"
+    ],
+    "tags": [
+      "Image Manipulation"
+    ]
+  },
+  {
+    "id": "progress-img",
+    "description": "Use images as progress bars in the terminal.",
+    "url": "https://github.com/kodie/progress-img",
+    "languages": [
+      "JavaScript"
+    ],
+    "tags": [
+      "CLI"
+    ]
+  },
+  {
+    "id": "redirectmeto",
+    "name": "RedirectMeTo",
+    "description": "A simple tool for redirecting you.",
+    "url": "https://github.com/kodie/redirectmeto"
+  },
+  {
+    "id": "replace-once",
+    "description": "Make multiple replacements in a string without replacing ones that have already been replaced.",
+    "url": "https://github.com/kodie/replace-once",
+    "languages": [
+      "JavaScript"
+    ]
+  },
+  {
+    "id": "rnd-flickr",
+    "description": "A node module that fetches a random image from Flickr.",
+    "url": "https://github.com/kodie/rnd-flickr",
+    "languages": [
+      "JavaScript"
+    ],
+    "technologies": [
+      "NodeJS"
+    ],
+    "tags": [
+      "API"
+    ]
+  },
+  {
+    "id": "rnd-song",
+    "description": "A node module that returns a random song/album/artist via the Musixmatch API.",
+    "url": "https://github.com/kodie/rnd-song",
+    "languages": [
+      "JavaScript"
+    ],
+    "technologies": [
+      "NodeJS"
+    ],
+    "tags": [
+      "API"
+    ]
+  },
+  {
+    "id": "serverpilot-shell",
+    "name": "ServerPilot API Shell Wrapper",
+    "description": "Manage your ServerPilot servers, system users, apps, and databases with command line.",
+    "url": "https://github.com/kodie/serverpilot-shell",
+    "languages": [
+      "Bash"
+    ],
+    "tags": [
+      "API"
+    ]
+  },
+  {
+    "id": "spontaneous-text",
+    "description": "A node module that draws the provided text string onto the provided image in a random font, color, size, and position.",
+    "url": "https://github.com/kodie/spontaneous-text",
+    "languages": [
+      "JavaScript"
+    ],
+    "technologies": [
+      "NodeJS"
+    ],
+    "tags": [
+      "Image Manipulation"
+    ]
+  },
+  {
+    "id": "stack-fanatic",
+    "description": "A node module that uses Google's Puppeteer library to visit your Stack Overflow profile and check the progress of the badge you are currently tracking.",
+    "url": "https://github.com/kodie/stack-fanatic",
+    "languages": [
+      "JavaScript"
+    ],
+    "technologies": [
+      "NodeJS"
+    ]
+  },
+  {
+    "id": "stack-fanatic-cli",
+    "description": "A CLI tool for checking the progress of the badge you are tracking on your Stack Overflow profile.",
+    "url": "https://github.com/kodie/stack-fanatic-cli",
+    "languages": [
+      "JavaScript"
+    ],
+    "technologies": [
+      "NodeJS"
+    ],
+    "tags": [
+      "CLI"
+    ]
+  },
+  {
+    "id": "wp-boilerplate",
+    "description": "A straightforward yet powerful Dockerized boilerplate for new WordPress sites, featuring configuration file encryption, deployment tools, and custom utilities for downloading frontend libraries and compiling/minifying SCSS and JavaScript.",
+    "url": "https://github.com/itsahappymedium/wp-boilerplate",
+    "languages": [
+      "JavaScript",
+      "PHP",
+      "SCSS"
+    ],
+    "tags": [
+      "WordPress"
+    ]
+  },
+  {
+    "id": "wp-deployer",
+    "name": "WordPress Deployer",
+    "description": "Deploy WordPress websites with ease.",
+    "url": "https://github.com/itsahappymedium/wp-deployer",
+    "languages": [
+      "PHP"
+    ],
+    "tags": [
+      "WordPress"
+    ]
+  }
+]

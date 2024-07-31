@@ -1,0 +1,14 @@
+#WindowBox.portfolio-view {
+  @include media('>=desktop') {
+    height: 50dvh;
+    width: 800px;
+
+    .tabs-navigation {
+      margin-left: 25%;
+    }
+
+    .side-navigation {
+      width: 25%;
+    }
+  }
+}
